@@ -24,6 +24,7 @@ nav {
     color: white;
     font-size: 40px;
 }
+
 .caja {
     display: inline-block;
     /* margin-left: 180px; */
@@ -63,10 +64,29 @@ nav {
     width: 550px;
     height: 230px;
 }
+
 #tweet-btn {
     background-color: rgb(69, 197, 206);
     width: 90px;
     height: 40px;
     margin: 6px;
     border: none;
+}
+
+.size2 {
+    width: auto;
+}
+
+#count {
+    float: right;
+    margin: 15px;
+    font-size: 25px;
+}
+
+form {
+    background: white;
+}
+
+.center {
+    margin: 0 150px;
 }
