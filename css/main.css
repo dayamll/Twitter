@@ -61,8 +61,8 @@ nav {
 }
 
 .size {
-    width: 550px;
-    height: 230px;
+    width: 450px;
+    min-height: 200px;
 }
 
 #tweet-btn {
@@ -85,24 +85,29 @@ nav {
 
 form {
     background: white;
+    width: 450px;
 }
 
 .center {
     margin: 0 150px;
 }
 
+textarea {
+    overflow: hidden;
+}
+
+.orangered {
+    color: orangered;
+}
+
 .seagreen {
     color: seagreen;
-  }
-  
-  .greenyellow {
-    color: greenyellow;
-  }
-  
-  .orangered {
-    color: orangered;
-  }
-  
-  .red {
+}
+
+.red {
     color: red;
-  }
+}
+
+.greenyellow {
+    color: greenyellow;
+}
